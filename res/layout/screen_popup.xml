@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/popup_element"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@android:color/transparent"
+android:orientation="vertical"
+android:padding="10dp" >
+
+    <GridLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:background="@android:color/background_dark">
+        <TextView
+android:id="@+id/txtView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="5sp"
+android:textColor="@android:color/black"
+android:text="Hello!" />
+
+<Button
+android:id="@+id/btn_close_popup"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:text="Close" />
+        
+    </GridLayout>
+
+
+
+</FrameLayout>

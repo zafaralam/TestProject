@@ -1,0 +1,8 @@
+/********************************************************
+* How to add functionality for a DB storage and retrival*
+*********************************************************/
+
+1) Define the SCHEMA & CONTRACT for the database.
+	- Have a subclass to define all the column names for the table(implement BaseColumn).
+2) Create a DBHelper class for your application that extends the SQLiteOpenHelper	
+	
